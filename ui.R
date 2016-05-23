@@ -1,14 +1,9 @@
 # The user-interface definition of the Shiny web app.
 library(shiny)
-library(BH)
-library(rCharts)
-require(markdown)
 require(data.table)
-library(dplyr)
-library(DT)
 
 
-                        
+source("fitbitdata.R")                        
 fluidPage(
     titlePanel("Fitbit activity data explorer"),
     sidebarLayout(

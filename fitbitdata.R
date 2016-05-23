@@ -25,4 +25,4 @@ get_fitbit_data <- function(file) {
     return (fb)
 }
 
-
+fb <- get_fitbit_data("fitbit.csv")
